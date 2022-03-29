@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.header{
+    width: 960px;
+    background-color: lightgrey;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.loginbutton{
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    width: 60px;
+    height: 30px;
+}
+
+.container{
+    width: 960px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+
+.likebutton{
+    background-color: darkgoldenrod;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px;
+    margin-top: 15px;
+    width: 80px;
+    height: 30px;
+    font-weight: 800;
+    
+}
+
+.definition{
+    text-align: center;
+    padding: 35px;
+}
+
+.ninjabox{
+    width: 400px;
+    padding: 30px;
+    border: 2px solid black;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.smallbox{
+    width: 220px;
+    height: 150px;
+    border: 2px solid black;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.button{
+    background-color: darkolivegreen;
+    width: 60%;
+    height: 30px;
+    margin: 30px;
+    box-shadow: 5px 5px 5px black;
+    font-weight: bold;
+}

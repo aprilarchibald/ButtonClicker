@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Dojonary</h1>
+        <textarea placeholder="Search" cols="35" rows="2"></textarea>
+        <button onclick="changeText(this)" class="loginbutton">Login</button>
+    </div> 
+
+    <div class="container"> 
+        <div class="column1">
+            <div class="ninjabox">
+                <div>
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h5>Plural: <em>ninjas</em></h5>
+                    <button onclick="alert('Ninja was liked')" class="likebutton">13 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="ninjabox">
+                <div>
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h5>Plural: <em>ninjas</em></h5>
+                    <button onclick="alert('Ninja was liked')" class="likebutton">37 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a> -like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="column2"></div>
+            <div class="smallbox">
+                <h2>Dojonary is defined by <strong>YOU</strong></h2>
+                <button onclick="removeButton(this)" class="button">Add definition</button>
+            </div>        
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
